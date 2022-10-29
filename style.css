@@ -1,0 +1,25 @@
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.input-form {
+  width: 100%;
+  background-color: #ddd;
+  padding: 20px 10px;
+}
+table {
+  margin: auto;
+  width: calc(100% - 10vw);
+  text-align: center;
+}
+input[type="file"] {
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  background-color: transparent;
+  color: red;
+  font-weight: bold;
+}
